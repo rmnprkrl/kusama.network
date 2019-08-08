@@ -789,3 +789,7 @@ span.tarteaucitronTitle.tarteaucitronH3 {
 .tarteaucitronLine .tarteaucitronAllow, .tarteaucitronLine .tarteaucitronAllow {
     opacity: 1;
 }
+
+#tarteaucitronPercentage {
+    display: none !important;
+}
