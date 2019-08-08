@@ -222,3 +222,8 @@ img.bg-gif {
 .article ul + h4 {
     margin-top: 3rem;
 }
+
+.icon.icon-lg {
+    height: auto;
+    max-width: 45px;
+}
