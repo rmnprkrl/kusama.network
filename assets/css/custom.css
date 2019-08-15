@@ -227,3 +227,7 @@ img.bg-gif {
     height: auto;
     max-width: 45px;
 }
+
+.modal {
+    z-index: 9999;
+}
