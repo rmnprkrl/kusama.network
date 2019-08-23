@@ -212,13 +212,45 @@ img.bg-gif {
     margin-top: -200px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 420px) {
     img.bg-gif {
+        width: 280px;
+        margin-left: -140px;
+        margin-top: -50px;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 576px) {
+    img.bg-gif {
+        width: 400px;
         margin-left: -200px;
         margin-top: -100px;
     }
 }
 
+@media (min-width:577px) and (max-width:767px) {
+    img.bg-gif {
+        width: 600px;
+        margin-left: -300px;
+        margin-top: -150px;
+    }
+}
+
+@media (max-width: 576px) {
+    span.h2.typed-text {
+        font-size: 1.6rem;
+    }
+}
+
 .article ul + h4 {
     margin-top: 3rem;
+}
+
+.icon.icon-lg {
+    height: auto;
+    max-width: 45px;
+}
+
+.modal {
+    z-index: 9999;
 }
