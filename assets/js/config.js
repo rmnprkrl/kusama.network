@@ -51,52 +51,12 @@ var klaroConfig = {
     translations: {
         // If you erase the "consentModal" translations, Klaro will use the
         // defaults as defined in translations.yml
-        de: {
-            consentModal: {
-                description:
-                    'Hier können Sie einsehen und anpassen, welche Information wir über Sie sammeln. Einträge die als "Beispiel" gekennzeichnet sind dienen lediglich zu Demonstrationszwecken und werden nicht wirklich verwendet.',
-            },
-            googleAnalytics: {
-                description: 'Sammeln von Besucherstatistiken',
-            },
-            cloudflare: {
-                description: 'Schutz gegen DDoS-Angriffe',
-            },
-            purposes: {
-                analytics: 'Besucher-Statistiken',
-                security: 'Sicherheit',
-            },
-        },
         en: {
-            consentModal: {
-                description:
-                    'Measuring our audience gives us useful statistics to improve the website and the products we build for you. By allowing these third party services, you accept their cookies and the use of tracking technologies necessary for their functioning.',
-            },
             googleAnalytics: {
                 description: 'Collection of information about how visitors use our website',
             },
-            cloudflare: {
-                description: 'Protection against DDoS attacks',
-            },
             purposes: {
                 analytics: 'analytics and improvement of our sites',
-                security: 'security',
-            },
-        },
-        tr: {
-            consentModal: {
-                description:
-                    'Hakkınızda topladığımız bilgileri burada görebilir ve özelleştirebilirsiniz. "Örnek" olarak belirtilenler sadece gösterim amaçlıdır ve gerçekte bu site için kullanılmazlar.',
-            },
-            googleAnalytics: {
-                description: 'Ziyaretçi istatistiklerini toplama',
-            },
-            cloudflare: {
-                description: 'DDoS saldırılarına karşı koruma',
-            },
-            purposes: {
-                analytics: 'Analitik',
-                security: 'Güvenlik',
             },
         },
     },
