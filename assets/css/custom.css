@@ -258,3 +258,16 @@ img.bg-gif {
 /* Klaro */
 
 .cm-toggle-all { display: none !important; }
+
+/*  Styling for Telemetry card */
+
+.card-telemetry { opacity: 0; transition: opacity .7s ease-out; }
+html.telemetry-loaded .card-telemetry { opacity: 1 }
+
+.card.card-telemetry.card-body {
+    padding: 1rem 1.5rem;
+}
+
+.card.card-telemetry.border {
+    border: 1px solid rgba(255, 255, 255, 0.25) !important;
+}
