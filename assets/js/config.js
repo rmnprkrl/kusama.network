@@ -54,16 +54,20 @@ var klaroConfig = {
     en: {
       googleAnalytics: {
         description:
-          "Collection of information about how visitors use our website"
+          "Collection of information about how visitors use our website",
+      },
+      googleTagManager: {
+        description:
+          "Collection of information about how visitors use our website",
       },
       hubSpot: {
         description:
-          "Collection of information about how visitors use our website"
+          "Collection of information about how visitors use our website",
       },
       purposes: {
-        analytics: "analytics and improvement of our sites"
-      }
-    }
+        analytics: "analytics and improvement of our sites",
+      },
+    },
   },
 
   // This is a list of third-party apps that Klaro will manage for you.
@@ -99,7 +103,7 @@ var klaroConfig = {
         [/^_ga.*$/, "/", ".kusama.network"], //for the production version
         [/^_ga.*$/, "/", ".localhost"], //for the production version
         ["_gid", "/", ".kusama.network"], //for the production version
-        ["_gid", "/", "localhost"] //for the local version
+        ["_gid", "/", "localhost"], //for the local version
       ],
 
       // If "required" is set to true, Klaro will not allow this app to
@@ -113,7 +117,50 @@ var klaroConfig = {
 
       // If "onlyOnce" is set to true, the app will only be executed
       // once regardless how often the user toggles it on and off.
-      onlyOnce: false
+      onlyOnce: false,
+    },
+    {
+      // Each app should have a unique (and short) name.
+      name: "googleTagManager",
+
+      // If "default" is set to true, the app will be enabled by default
+      // Overwrites global "default" setting.
+      // We recommend leaving this to "false" for apps that collect
+      // personal information.
+      default: true,
+
+      // The title of you app as listed in the consent modal.
+      title: "Google Tag Manager",
+
+      // The purpose(s) of this app. Will be listed on the consent notice.
+      // Do not forget to add translations for all purposes you list here.
+      purposes: ["analytics"],
+
+      // A list of regex expressions or strings giving the names of
+      // cookies set by this app. If the user withdraws consent for a
+      // given app, Klaro will then automatically delete all matching
+      // cookies.
+      cookies: [
+        // you can also explicitly provide a path and a domain for
+        // a given cookie. This is necessary if you have apps that
+        // set cookies for a path that is not "/" or a domain that
+        // is not the current domain. If you do not set these values
+        // properly, the cookie can't be deleted by Klaro
+        // (there is no way to access the path or domain of a cookie in JS)
+      ],
+
+      // If "required" is set to true, Klaro will not allow this app to
+      // be disabled by the user.
+      required: false,
+
+      // If "optOut" is set to true, Klaro will load this app even before
+      // the user gave explicit consent.
+      // We recommend always leaving this "false".
+      optOut: false,
+
+      // If "onlyOnce" is set to true, the app will only be executed
+      // once regardless how often the user toggles it on and off.
+      onlyOnce: false,
     },
     {
       // Each app should have a unique (and short) name.
@@ -147,7 +194,7 @@ var klaroConfig = {
         // ["hubspotutk", "/", "localhost"] //for the local version
       ],
 
-      callback: function(consent, app) {
+      callback: function (consent, app) {
         if (!consent) {
           // Use native HubSpot JS to revoke all HubSpot cookies
           if (typeof _hsq !== "undefined") _hsq.push(["revokeCookieConsent"]);
@@ -165,9 +212,9 @@ var klaroConfig = {
 
       // If "onlyOnce" is set to true, the app will only be executed
       // once regardless how often the user toggles it on and off.
-      onlyOnce: false
-    }
+      onlyOnce: false,
+    },
 
     // The apps will appear in the modal in the same order as defined here.
-  ]
+  ],
 };
