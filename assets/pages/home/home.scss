@@ -21,12 +21,9 @@ body {
 
 .max-hero {
 	margin-top: 6rem;
-	// & > .container {
-	// 	min-height: 100vh;
-	// 	display: flex;
-	// 	flex-direction: column;
-	// 	justify-content: space-between;
-	// }
+	.text-light {
+		margin-top: 180px !important;
+	}
 }
 
 section {

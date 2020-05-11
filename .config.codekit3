@@ -1588,6 +1588,17 @@
 		"oAP": "/build/node_modules",
 		"oF": 0
 		},
+	"/node_modules/typed.js/lib/typed.js": {
+		"bF": 6,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/typed.js/lib/typed.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"/package.json": {
 		"ft": 524288,
 		"oA": 1,
