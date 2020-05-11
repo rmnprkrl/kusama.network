@@ -6,4 +6,31 @@
 
 body {
 	background-color: black;
+	& > div.loader {
+		background-color: black;
+	}
+}
+
+.navbar-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100vw;
+}
+
+.max-hero {
+	margin-top: 6rem;
+	// & > .container {
+	// 	min-height: 100vh;
+	// 	display: flex;
+	// 	flex-direction: column;
+	// 	justify-content: space-between;
+	// }
+}
+
+#home {
+	& > .container {
+		//min-height: 100vh;
+	}
 }

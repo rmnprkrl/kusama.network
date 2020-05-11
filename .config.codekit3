@@ -1057,6 +1057,14 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"/assets/js/_scripts.min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/assets/js/_scripts.min.js.map",
+		"oF": 0
+		},
 	"/assets/js/aos.js": {
 		"bF": 6,
 		"ft": 64,
@@ -1109,6 +1117,17 @@
 		"oA": 1,
 		"oAP": "/assets/js/flickity.pkgd.min.min.js",
 		"oF": 1,
+		"sC": 3,
+		"tS": 1
+		},
+	"/assets/js/home.min.js": {
+		"bF": 6,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/home.min.min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 1
 		},
@@ -1356,7 +1375,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/assets/pages/css/home.css",
+		"oAP": "/assets/css/home.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -1728,49 +1747,49 @@
 "manualImportLinks": {
 	"/assets/js/_scripts.js": [
 		{
-			"followForSyntaxChecking": 1,
+			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "/assets/js/jquery.min.js",
 			"position": 0,
 			"type": 0
 			},
 		{
-			"followForSyntaxChecking": 1,
+			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "/assets/js/popper.min.js",
 			"position": 1,
 			"type": 0
 			},
 		{
-			"followForSyntaxChecking": 1,
+			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "/assets/js/bootstrap.js",
 			"position": 2,
 			"type": 0
 			},
 		{
-			"followForSyntaxChecking": 1,
+			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "/assets/js/jquery.fancybox.min.js",
 			"position": 3,
 			"type": 0
 			},
 		{
-			"followForSyntaxChecking": 1,
+			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "/assets/js/plyr.polyfilled.min.js",
 			"position": 4,
 			"type": 0
 			},
 		{
-			"followForSyntaxChecking": 1,
+			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "/assets/js/typed.min.js",
 			"position": 5,
 			"type": 0
 			},
 		{
-			"followForSyntaxChecking": 1,
+			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "/assets/js/theme.js",
 			"position": 6,
 			"type": 0
 			},
 		{
-			"followForSyntaxChecking": 1,
+			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "/assets/js/telemetry.js",
 			"position": 7,
 			"type": 0
@@ -3799,10 +3818,10 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "../css",
+		"autoOutputPathRelativePath": "/assets/css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 1,
 		"compilerType": 0,
 		"createSourceMap": 0,
 		"decimalPrecision": 10,

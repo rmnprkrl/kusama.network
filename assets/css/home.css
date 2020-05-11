@@ -1,1 +1,1 @@
-@import"../css/loaders/loader-typing.css";@import"../css/theme.css";@import"../css/custom.css";@import"../css/fonts.css";@import"../css/glitch.css";body{background-color:#000}
+@import"../css/loaders/loader-typing.css";@import"../css/theme.css";@import"../css/custom.css";@import"../css/fonts.css";@import"../css/glitch.css";body{background-color:#000}body>div.loader{background-color:#000}.navbar-container{position:fixed;top:0;left:0;z-index:999;width:100vw}.max-hero{margin-top:6rem}
