@@ -10,7 +10,8 @@ const typedOpts = {
 		'A canary network.',
 		'A Polkadot experiment.'
 	],
-	typeSpeed: 100
+	typeSpeed: 100,
+	loop: true
 }
 
 function init() {

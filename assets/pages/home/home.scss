@@ -6,9 +6,37 @@
 
 body {
 	background-color: black;
+	text-align: center;
 	& > div.loader {
 		background-color: black;
 	}
+}
+
+section,
+.section {
+	display: block;
+	float: left;
+	width: 100%;
+	clear: both;
+	padding: 6rem 0;
+}
+
+.pd-0 {
+	padding: 0;
+}
+
+.container {
+	display: inline-block;
+	margin: auto;
+	text-align: left;
+	padding: 0 1.5rem;
+}
+
+.btn-outline-white,
+.btn-outline-primary {
+	border-width: 2px;
+	font-weight: bold;
+	transform: scale(0.9);
 }
 
 .navbar-container {
@@ -19,25 +47,31 @@ body {
 	width: 100vw;
 }
 
-.max-hero {
-	margin-top: 6rem;
-	.text-light {
-		margin-top: 180px !important;
+.hero {
+	padding-top: 8rem;
+	.container {
+		text-align: center;
+		.treatment {
+			margin-bottom: 4rem;
+			img {
+				display: inline-block;
+				width: 100%;
+				height: auto;
+				max-width: 768px;
+			}
+			.typed-text-wrap {
+				white-space: nowrap;
+				color: white;
+				position: absolute;
+				bottom: 0;
+				left: 50%;
+				transform: translate3d(-50%, -100%, 0);
+				.typed-text {
+					color: inherit;
+				}
+			}
+		}
 	}
-}
-
-section {
-	display: block;
-	float: left;
-	width: 100%;
-	clear: both;
-}
-
-.btn-outline-white,
-.btn-outline-primary {
-	border-width: 2px;
-	font-weight: bold;
-	transform: scale(0.9);
 }
 
 #home {
