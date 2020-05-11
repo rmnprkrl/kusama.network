@@ -1211,7 +1211,7 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/assets/js/jquery.fancybox.min.min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 1
 		},
@@ -1244,7 +1244,7 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/assets/js/plyr.polyfilled.min.min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 1
 		},
@@ -1255,7 +1255,7 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/assets/js/popper.min.min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 1
 		},
@@ -1362,7 +1362,7 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/assets/js/typed.min.min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 1
 		},
@@ -1780,32 +1780,8 @@
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/assets/js/popper.min.js",
-			"position": 1,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "/assets/js/bootstrap.js",
-			"position": 2,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/assets/js/jquery.fancybox.min.js",
-			"position": 3,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/assets/js/plyr.polyfilled.min.js",
-			"position": 4,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/assets/js/typed.min.js",
-			"position": 5,
+			"position": 1,
 			"type": 0
 			}
 		]

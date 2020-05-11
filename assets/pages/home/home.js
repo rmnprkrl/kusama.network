@@ -1,7 +1,5 @@
-// import $ from 'jquery'
-// // export for others scripts to use
-// window.$ = $
+window.addEventListener('load', init)
 
-window.addEventListener('load', function() {
+function init() {
 	document.querySelector('body').classList.add('loaded')
-})
+}
