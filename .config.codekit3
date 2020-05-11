@@ -167,6 +167,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/assets/css/theme-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/theme-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/assets/css/theme.css": {
 		"aP": 1,
 		"bl": 0,
@@ -635,6 +645,14 @@
 		"oAP": "/assets/fragments/header.html",
 		"oF": 0
 		},
+	"/assets/fragments/hero-home.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/assets/fragments/hero-home.html",
+		"oF": 0
+		},
 	"/assets/img/animation-alt.gif": {
 		"ft": 4194304,
 		"iS": 417732,
@@ -1046,7 +1064,7 @@
 	"/assets/js/_scripts.js": {
 		"bF": 0,
 		"ft": 64,
-		"ma": 0,
+		"ma": 1,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/assets/js/_scripts.min.js",
@@ -1300,8 +1318,8 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/assets/js/telemetry.min.js",
-		"oF": 0,
-		"sC": 3,
+		"oF": 1,
+		"sC": 0,
 		"tS": 1
 		},
 	"/assets/js/telemetry.min.js": {
@@ -1322,7 +1340,7 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/assets/js/theme.min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 1
 		},
@@ -1387,14 +1405,6 @@
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
-		},
-	"/CNAME": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/CNAME",
-		"oF": 0
 		},
 	"/confirmation-ty.html": {
 		"cB": 0,
@@ -1562,6 +1572,12 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/newsletter.html",
+		"oF": 0
+		},
+	"/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/node_modules",
 		"oF": 0
 		},
 	"/package.json": {
@@ -1782,18 +1798,6 @@
 			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "/assets/js/typed.min.js",
 			"position": 5,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/assets/js/theme.js",
-			"position": 6,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/assets/js/telemetry.js",
-			"position": 7,
 			"type": 0
 			}
 		]
@@ -3889,7 +3893,7 @@
 	"languageDefaultsUserDefined": [
 		],
 	"npmAbbreviatedPath": "",
-	"npmCreatePackageLock": 1,
+	"npmCreatePackageLock": 0,
 	"npmInstallOptionalDependencies": 0,
 	"npmSaveExactVersion": 0,
 	"npmTargetDependencyListType": 1,

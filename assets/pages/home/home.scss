@@ -29,6 +29,20 @@ body {
 	// }
 }
 
+section {
+	display: block;
+	float: left;
+	width: 100%;
+	clear: both;
+}
+
+.btn-outline-white,
+.btn-outline-primary {
+	border-width: 2px;
+	font-weight: bold;
+	transform: scale(0.9);
+}
+
 #home {
 	color: white;
 	h1,
@@ -50,6 +64,9 @@ body {
 	}
 
 	.intro {
-		max-width: 560px;
+		.wrap {
+			max-width: 560px;
+			float: right;
+		}
 	} //intro
 } //home
