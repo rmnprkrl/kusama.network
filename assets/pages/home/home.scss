@@ -30,7 +30,26 @@ body {
 }
 
 #home {
+	color: white;
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: white;
+	}
+	p {
+		font-size: 18px;
+		line-height: 2;
+		color: #ccc;
+	}
+
 	& > .container {
 		//min-height: 100vh;
 	}
-}
+
+	.intro {
+		max-width: 560px;
+	} //intro
+} //home
