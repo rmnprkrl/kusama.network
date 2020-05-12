@@ -2,7 +2,7 @@ import Typed from 'typed.js'
 
 window.addEventListener('load', init)
 
-const typedOpts = {
+const heroOpts = {
 	strings: [
 		'Expect chaos.',
 		'No promises.',
@@ -14,8 +14,15 @@ const typedOpts = {
 	loop: true
 }
 
+const projectOpts = {
+	strings: [ 'Innovation', 'Scalability', 'Interoperability', 'Customization' ],
+	typeSpeed: 100,
+	loop: true
+}
+
 function init() {
 	document.querySelector('body').classList.add('loaded')
 
-	new Typed('.typed-text', typedOpts)
+	new Typed('.typed-text-hero', heroOpts)
+	new Typed('.typed-text-project', projectOpts)
 }

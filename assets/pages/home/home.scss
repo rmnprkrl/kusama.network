@@ -144,15 +144,19 @@ section,
 
 	.hero {
 		min-height: 100vh;
-		position: sticky;
 		top: 0;
 		display: flex;
 		padding: 0;
 
+		@media (min-height: 600px) {
+			position: sticky;
+		}
+
 		.container {
 			margin: auto;
 			text-align: center;
-			padding-bottom: calc(4rem + 1vh + 1vw);
+			padding-top: 6rem;
+			padding-bottom: calc(6rem + 3vh + 3vw);
 			.treatment {
 				margin-bottom: 3rem;
 				img {
@@ -187,6 +191,9 @@ section,
 	.launch-your-blockchain,
 	.bring-x-to-your-project {
 		position: relative;
+		.typed-text {
+			color: var(--c-accent);
+		}
 	} //launch your blockchain
 
 	.launch-your-blockchain {
@@ -256,7 +263,7 @@ section,
 
 	@media (min-width: 1200px) {
 		.features {
-			padding-right: 6rem;
+			padding-right: 3rem;
 		}
 	}
 } //home
