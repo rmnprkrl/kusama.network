@@ -140,6 +140,42 @@ section,
 		}
 	} //box outlines
 
+	.icons-wrap {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 3rem;
+
+		@media (min-width: 960px) {
+			justify-content: space-evenly;
+		}
+
+		.icon-wrap {
+			display: inline-flex;
+			flex-direction: column;
+			align-items: center;
+			.icon {
+				width: 3rem;
+				height: 3rem;
+				margin-bottom: 1rem;
+				background-size: contain;
+				background-position: center center;
+				background-repeat: no-repeat;
+				&.polkadot {
+					background-image: url("/assets/img/teams/polkadot.png");
+				}
+				&.acala {
+					background-image: url("/assets/img/teams/acala.png");
+				}
+				&.chainlink {
+					background-image: url("/assets/img/teams/chainlink.png");
+				}
+				&.moonbeam {
+					background-image: url("/assets/img/teams/moonbeam.png");
+				}
+			}
+		}
+	}
+
 	// -------------- #SECTIONS
 
 	.hero {
