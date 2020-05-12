@@ -19,6 +19,8 @@
 	--c-light: #eee;
 	--c-accent: #e6007a;
 	--c-cyan: #00ffe1;
+
+	--c-paragraph: #ddd;
 }
 
 // -------------- #GLOBAL
@@ -94,7 +96,7 @@ section,
 	p {
 		font-size: 18px;
 		line-height: 1.8;
-		color: #ccc;
+		color: var(--c-paragraph);
 	}
 
 	ul,
