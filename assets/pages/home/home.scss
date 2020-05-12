@@ -66,9 +66,14 @@ section,
 }
 
 .hero {
-	padding-top: 9rem;
+	min-height: 100vh;
+	//max-height: 680px;
+
+	display: flex;
 	.container {
+		margin: auto;
 		text-align: center;
+		padding-bottom: calc(4rem + 3vh);
 		.treatment {
 			margin-bottom: 3rem;
 			img {
@@ -171,10 +176,13 @@ section,
 	.launch-your-blockchain,
 	.bring-x-to-your-project {
 		position: relative;
-		padding: 12rem 0 0 0;
 	} //launch your blockchain
 
-	.sticky-hero {
+	.launch-your-blockchain {
+		padding-top: 12rem;
+	}
+
+	.section-hero {
 		position: relative;
 		display: block;
 
@@ -187,7 +195,7 @@ section,
 		}
 
 		.bg-img {
-			opacity: 0.6;
+			opacity: 0.5;
 			text-align: center;
 			z-index: -1;
 			img {
@@ -197,6 +205,7 @@ section,
 	} //sticky hero
 
 	.features {
+		margin-left: 1rem;
 		position: relative;
 		z-index: 4;
 		.feature {
@@ -204,10 +213,39 @@ section,
 		}
 	}
 
-	@media (min-width: 960px) {
-		.sticky-hero {
+	.join-ecosystem {
+		text-align: center;
+	}
+
+	@media (min-width: 768px) {
+		.canary-network {
+			.wrap {
+				position: relative;
+				z-index: 40;
+				margin-top: -6rem;
+			}
+		}
+	}
+
+	@media (min-width: 992px) {
+		.section-hero.sticky {
 			position: sticky;
-			top: 12rem;
+			top: 10rem;
+			h2 {
+				padding-bottom: 2rem;
+			}
+		}
+
+		.bring-x-to-your-project {
+			.section-hero {
+				margin-bottom: -12rem;
+			}
+		}
+	}
+
+	@media (min-width: 1200px) {
+		.features {
+			padding-right: 6rem;
 		}
 	}
 } //home
