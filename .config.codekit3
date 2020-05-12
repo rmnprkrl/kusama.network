@@ -57,6 +57,16 @@
 		"oAP": "/ar/teams.html",
 		"oF": 0
 		},
+	"/assets/css/custom-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/custom-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/assets/css/custom.css": {
 		"aP": 1,
 		"bl": 0,
@@ -691,6 +701,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/img/boxes_graph.png": {
+		"ft": 32768,
+		"iS": 26735,
+		"oA": 0,
+		"oAP": "/assets/img/boxes_graph.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/img/favicon-dot.ico": {
 		"cB": 0,
 		"ft": 8192,
@@ -896,6 +917,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/mesh_graph_1.png": {
+		"ft": 32768,
+		"iS": 921719,
+		"oA": 0,
+		"oAP": "/assets/img/mesh_graph_1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
