@@ -160,7 +160,12 @@ section,
 		display: inline-block;
 		width: auto;
 		position: relative;
-		padding: 6rem 3rem;
+		padding: 4rem 3rem !important;
+
+		p {
+			margin-bottom: 0;
+		}
+
 		&::before,
 		&::after {
 			content: '';
@@ -273,7 +278,7 @@ section,
 		padding-top: 12rem;
 	}
 	.bring-x-to-your-project {
-		h2 {
+		.section-hero h2 {
 			white-space: nowrap;
 			width: 100%;
 			overflow: hidden;
@@ -292,7 +297,12 @@ section,
 			position: absolute;
 			top: 50%;
 			left: 0;
-			transform: translateY(-160%);
+			transform: translateY(-100%);
+			padding-right: 3rem;
+
+			@media (min-width: 768px) {
+				left: 0;
+			}
 		}
 
 		.bg-img {
@@ -306,9 +316,11 @@ section,
 	} //sticky hero
 
 	.features {
-		margin-left: 1rem;
 		position: relative;
 		z-index: 4;
+		@media (min-width: 768px) {
+			margin-left: 2rem;
+		}
 		.feature {
 			margin-bottom: 6rem;
 		}
@@ -317,11 +329,13 @@ section,
 	.join-ecosystem {
 		position: relative;
 		text-align: center;
+		padding-top: 9rem;
 	}
 
 	.take-flight {
 		text-align: center;
 		padding-bottom: 0;
+		padding-top: 9rem;
 
 		.flight-select-wrap {
 			display: flex;
@@ -333,7 +347,6 @@ section,
 				min-width: 240px;
 				width: 100%;
 				margin: 0 1rem 4rem 1rem;
-				padding: 4rem 3rem;
 
 				@media (min-width: 768px) {
 					width: calc(50% - 4rem);
