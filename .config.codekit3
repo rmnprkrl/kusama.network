@@ -986,6 +986,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/img/teams/acala.png": {
+		"ft": 32768,
+		"iS": 6880,
+		"oA": 0,
+		"oAP": "/assets/img/teams/acala.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/img/teams/atoken.png": {
 		"ft": 32768,
 		"iS": 3857,
@@ -1028,6 +1039,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/img/teams/chainlink.png": {
+		"ft": 32768,
+		"iS": 4763,
+		"oA": 0,
+		"oAP": "/assets/img/teams/chainlink.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/img/teams/cobo.png": {
 		"ft": 32768,
 		"iS": 4223,
@@ -1058,6 +1080,28 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/teams/Moonbeam.png": {
+		"ft": 32768,
+		"iS": 5478,
+		"oA": 0,
+		"oAP": "/assets/img/teams/Moonbeam.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/teams/polkadot.png": {
+		"ft": 32768,
+		"iS": 2740,
+		"oA": 0,
+		"oAP": "/assets/img/teams/polkadot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},

@@ -65,36 +65,13 @@ section,
 	width: 100vw;
 }
 
-.hero {
-	min-height: 100vh;
-	//max-height: 680px;
-
-	display: flex;
-	.container {
-		margin: auto;
-		text-align: center;
-		padding-bottom: calc(4rem + 3vh);
-		.treatment {
-			margin-bottom: 3rem;
-			img {
-				display: inline-block;
-				width: 100%;
-				height: auto;
-				max-width: 768px;
-			}
-			.typed-text-wrap {
-				white-space: nowrap;
-				color: white;
-				position: absolute;
-				bottom: 0;
-				left: 50%;
-				transform: translate3d(-50%, -100%, 0);
-				.typed-text {
-					color: inherit;
-				}
-			}
-		}
-	}
+#footer {
+	position: relative;
+	float: left;
+	display: block;
+	width: 100%;
+	z-index: 4;
+	color: var(--c-dark);
 }
 
 // -------------- #HOME STYLES
@@ -164,6 +141,40 @@ section,
 	} //box outlines
 
 	// -------------- #SECTIONS
+
+	.hero {
+		min-height: 100vh;
+		position: sticky;
+		top: 0;
+		display: flex;
+		padding: 0;
+
+		.container {
+			margin: auto;
+			text-align: center;
+			padding-bottom: calc(4rem + 1vh + 1vw);
+			.treatment {
+				margin-bottom: 3rem;
+				img {
+					display: inline-block;
+					width: 100%;
+					height: auto;
+					max-width: 768px;
+				}
+				.typed-text-wrap {
+					white-space: nowrap;
+					color: white;
+					position: absolute;
+					bottom: 0;
+					left: 50%;
+					transform: translate3d(-50%, -100%, 0);
+					.typed-text {
+						color: inherit;
+					}
+				}
+			}
+		}
+	}
 
 	.box-graphic {
 		text-align: center;
