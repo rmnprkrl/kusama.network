@@ -97,6 +97,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/assets/css/glitch-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/glitch-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/assets/css/glitch.css": {
 		"aP": 1,
 		"bl": 0,
@@ -678,6 +688,16 @@
 		"oAP": "/assets/img/animation.gif",
 		"oF": 0,
 		"opt": 1
+		},
+	"/assets/img/arrow-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/img/arrow-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/assets/img/bg-1.png": {
 		"ft": 32768,

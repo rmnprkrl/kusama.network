@@ -18,6 +18,7 @@
 	--c-dark: black;
 	--c-light: #eee;
 	--c-accent: #e6007a;
+	--c-cyan: #00ffe1;
 }
 
 // -------------- #GLOBAL
@@ -88,11 +89,21 @@ section,
 	h5,
 	h6 {
 		color: var(--c-light);
+		margin-bottom: 3rem;
 	}
 	p {
 		font-size: 18px;
 		line-height: 1.8;
 		color: #ccc;
+	}
+
+	ul,
+	ol,
+	li {
+		display: block;
+		float: left;
+		width: 100%;
+		clear: both;
 	}
 
 	// -------------- #UTILITIES
@@ -101,21 +112,47 @@ section,
 		display: block;
 		width: 100%;
 		float: left;
-		& > div {
+		.wrap-left {
 			padding-bottom: 3rem;
 			padding-top: 3rem;
-		}
-		.wrap-left {
 			display: inline-block;
 			max-width: 560px;
 			float: left;
 		}
 		.wrap-right {
+			padding-bottom: 3rem;
+			padding-top: 3rem;
 			display: inline-block;
 			max-width: 560px;
 			float: right;
 		}
 	} //wrap
+
+	.wrap__bottom {
+		padding: 3rem 0;
+
+		h3 {
+			line-height: 2;
+		}
+
+		li {
+			font-size: 1.4rem;
+			padding: 0 3rem;
+			line-height: 2.4;
+			width: 100%;
+			white-space: nowrap;
+		}
+
+		@media (min-width: 960px) {
+			.wrap-left {
+				max-width: 560px;
+				width: 40%;
+			}
+			.wrap-right {
+				float: left;
+			}
+		}
+	}
 
 	.box-outlines {
 		display: inline-block;
@@ -131,6 +168,7 @@ section,
 			bottom: 0;
 			left: 0;
 			border: solid 2px var(--c-accent);
+			pointer-events: none;
 		}
 		&::before {
 			transform: translate3d(-2%, -2%, 0);
@@ -227,13 +265,20 @@ section,
 	.launch-your-blockchain,
 	.bring-x-to-your-project {
 		position: relative;
-		.typed-text {
-			color: var(--c-accent);
-		}
 	} //launch your blockchain
 
 	.launch-your-blockchain {
 		padding-top: 12rem;
+	}
+	.bring-x-to-your-project {
+		h2 {
+			white-space: nowrap;
+			width: 100%;
+			overflow: hidden;
+		}
+		.typed-text {
+			color: var(--c-accent);
+		}
 	}
 
 	.section-hero {
@@ -268,7 +313,73 @@ section,
 	}
 
 	.join-ecosystem {
+		position: relative;
 		text-align: center;
+		padding-top: 6rem;
+		padding-bottom: 3rem;
+	}
+
+	.take-flight {
+		text-align: center;
+		padding-top: 9rem;
+		padding-bottom: 0;
+
+		.flight-select-wrap {
+			display: flex;
+			justify-content: space-evenly;
+			flex-wrap: wrap;
+			padding-top: 3rem;
+
+			.flight-select {
+				min-width: 240px;
+				width: 100%;
+				margin: 0 1rem 4rem 1rem;
+				padding: 4rem 3rem;
+
+				@media (min-width: 768px) {
+					width: calc(50% - 4rem);
+				}
+				@media (min-width: 960px) {
+					width: 28%;
+				}
+
+				h3 {
+					margin-bottom: 3rem;
+					text-align: left;
+				}
+				a.with-icon {
+					text-align: left;
+					position: relative;
+					display: block;
+					width: 100%;
+					padding-right: 3rem;
+					margin-top: 2rem;
+					font-size: 1.4rem;
+
+					&::after {
+						content: '';
+						position: absolute;
+						width: 1.2rem;
+						height: 1.2rem;
+						background-color: var(--c-accent);
+						right: 0;
+						top: 50%;
+						transform: translateY(-50%);
+						mask-size: contain;
+						mask-position: right center;
+						mask-repeat: no-repeat;
+						mask-image: url("/assets/img/arrow-right.svg");
+					}
+
+					&:hover {
+						color: var(--c-cyan);
+						&::after {
+							background-color: var(--c-cyan);
+						}
+					}
+				}
+			}
+		}
 	}
 
 	@media (min-width: 768px) {
