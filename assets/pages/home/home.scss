@@ -54,13 +54,6 @@ section,
 	padding: 0 1.5rem;
 }
 
-.btn-outline-white,
-.btn-outline-primary {
-	border-width: 2px;
-	font-weight: bold;
-	transform: scale(0.9);
-}
-
 .navbar-container {
 	position: fixed;
 	top: 0;
@@ -68,7 +61,7 @@ section,
 	z-index: 999;
 	width: 100vw;
 	a.btn {
-		font-size: 1rem;
+		font-size: 0.8rem;
 	}
 }
 
@@ -84,8 +77,10 @@ section,
 a.btn,
 button.btn {
 	font-weight: bold;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	border-radius: 0;
+	border-width: 2px;
+
 	&.btn-outline-primary {
 		color: var(--c-accent);
 	}
@@ -99,6 +94,25 @@ button.btn {
 			color: var(--c-cyan);
 			border-color: var(--c-cyan);
 			background-color: transparent;
+		}
+	}
+}
+
+.button-wrap {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+
+	.btn:first-of-type {
+		margin: 0 2rem 0 0;
+	}
+
+	@media (max-width: 480px) {
+		flex-direction: column;
+		justify-content: flex-start;
+
+		.btn:first-of-type {
+			margin: 0 0 2rem 0;
 		}
 	}
 }
@@ -123,6 +137,7 @@ button.btn {
 		font-size: 18px;
 		line-height: 1.8;
 		color: var(--c-paragraph);
+		margin-bottom: 2rem;
 	}
 
 	ul,
@@ -255,20 +270,6 @@ button.btn {
 					transform: translate3d(-50%, -100%, 0);
 					.typed-text {
 						color: inherit;
-					}
-				}
-			}
-
-			.button-wrap {
-				text-align: center;
-				display: flex;
-				justify-content: center;
-
-				@media (max-width: 480px) {
-					flex-direction: column;
-
-					.btn:first-of-type {
-						margin-bottom: 1rem;
 					}
 				}
 			}
