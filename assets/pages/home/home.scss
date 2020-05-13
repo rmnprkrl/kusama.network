@@ -258,6 +258,20 @@ button.btn {
 					}
 				}
 			}
+
+			.button-wrap {
+				text-align: center;
+				display: flex;
+				justify-content: center;
+
+				@media (max-width: 480px) {
+					flex-direction: column;
+
+					.btn:first-of-type {
+						margin-bottom: 1rem;
+					}
+				}
+			}
 		}
 	}
 
