@@ -21,8 +21,6 @@ const projectOpts = {
 }
 
 function init() {
-	document.querySelector('body').classList.add('loaded')
-
 	new Typed('.typed-text-hero', heroOpts)
 	new Typed('.typed-text-project', projectOpts)
 }

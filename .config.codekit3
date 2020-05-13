@@ -62,7 +62,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/assets/css/custom-min.css",
 		"oF": 0,
 		"oS": 3
@@ -82,7 +82,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/assets/css/fonts-min.css",
 		"oF": 0,
 		"oS": 3
@@ -102,8 +102,18 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/assets/css/glitch-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/css/global.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/global-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -172,8 +182,18 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/assets/css/loaders/loader-typing-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/css/teams.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/teams-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -192,7 +212,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/assets/css/theme-min.css",
 		"oF": 0,
 		"oS": 3
@@ -1471,6 +1491,19 @@
 		"oAP": "/assets/kusama-brand-assets.zip",
 		"oF": 0
 		},
+	"/assets/pages/global.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/assets/css/global.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
+		},
 	"/assets/pages/home/home.js": {
 		"bF": 6,
 		"ft": 64,
@@ -1499,6 +1532,27 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/assets/css/home.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
+		},
+	"/assets/pages/teams/teams.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/teams.html",
+		"oF": 0
+		},
+	"/assets/pages/teams/teams.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/teams.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
