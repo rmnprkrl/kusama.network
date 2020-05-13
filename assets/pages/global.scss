@@ -116,3 +116,9 @@ button.btn {
 		}
 	}
 }
+
+::selection {
+	background: var(--c-cyan);
+	color: var(--c-accent);
+	text-shadow: none;
+}
