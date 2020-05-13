@@ -130,32 +130,6 @@ section,
 		}
 	} //wrap
 
-	.wrap__bottom {
-		padding: 3rem 0;
-
-		h3 {
-			line-height: 2;
-		}
-
-		li {
-			font-size: 1.4rem;
-			padding: 0 3rem;
-			line-height: 2;
-			margin-bottom: 1rem;
-			width: 100%;
-		}
-
-		@media (min-width: 960px) {
-			.wrap-left {
-				max-width: 560px;
-				width: 40%;
-			}
-			.wrap-right {
-				float: left;
-			}
-		}
-	}
-
 	.box-outlines {
 		display: inline-block;
 		width: auto;
@@ -320,6 +294,7 @@ section,
 		z-index: 4;
 		@media (min-width: 768px) {
 			margin-left: 2rem;
+			padding: 64vh 0;
 		}
 		.feature {
 			margin-bottom: 6rem;
@@ -330,6 +305,32 @@ section,
 		position: relative;
 		text-align: center;
 		padding-top: 9rem;
+	}
+
+	.wrap__bottom {
+		padding: 3rem 0;
+
+		h3 {
+			line-height: 2;
+		}
+
+		li {
+			font-size: 1.4rem;
+			padding: 0 3rem;
+			line-height: 2;
+			margin-bottom: 1rem;
+			width: 100%;
+		}
+
+		@media (min-width: 960px) {
+			.wrap-left {
+				max-width: 560px;
+				width: 40%;
+			}
+			.wrap-right {
+				float: left;
+			}
+		}
 	}
 
 	.take-flight {
