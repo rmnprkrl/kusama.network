@@ -66,6 +66,9 @@ section,
 	left: 0;
 	z-index: 999;
 	width: 100vw;
+	a.btn {
+		font-size: 1rem;
+	}
 }
 
 #footer {
@@ -75,6 +78,27 @@ section,
 	width: 100%;
 	z-index: 4;
 	color: var(--c-dark);
+}
+
+a.btn {
+	font-weight: bold;
+	font-size: 1.2rem;
+	border-radius: 0;
+	&.btn-outline-primary {
+		color: var(--c-accent);
+	}
+	&.btn-outline-white {
+		color: white;
+	}
+
+	&:hover {
+		&.btn-outline-primary,
+		&.btn-outline-white {
+			color: var(--c-cyan);
+			border-color: var(--c-cyan);
+			background-color: transparent;
+		}
+	}
 }
 
 // -------------- #HOME STYLES
