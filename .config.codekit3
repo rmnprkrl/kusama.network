@@ -57,6 +57,16 @@
 		"oAP": "/ar/teams.html",
 		"oF": 0
 		},
+	"/assets/css/contact.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/contact-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/assets/css/custom.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1553,6 +1563,27 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/assets/css/home.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
+		},
+	"/assets/pages/logos/logos.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/logos.html",
+		"oF": 0
+		},
+	"/assets/pages/logos/logos.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/logos.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0

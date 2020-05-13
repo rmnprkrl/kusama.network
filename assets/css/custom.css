@@ -83,8 +83,8 @@ strong {
 
 .btn-primary:hover {
 	color: #fff;
-	background-color: #cd0061;
-	border-color: #cd0061;
+	background-color: #e6007a;
+	border-color: #e6007a;
 }
 
 .btn-outline-primary {
@@ -94,8 +94,8 @@ strong {
 
 .btn-outline-primary:hover {
 	color: #fff;
-	background-color: #cd0061;
-	border-color: #cd0061;
+	background-color: #e6007a;
+	border-color: #e6007a;
 }
 
 .btn-cta.btn-outline-primary {
@@ -285,4 +285,55 @@ html.telemetry-loaded .card-telemetry {
 
 a:hover > p.text-muted {
 	color: rgba(255, 255, 255, 1) !important;
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+body > div.loader {
+	background-color: black;
+}
+
+a.btn,
+button.btn {
+	font-weight: bold;
+	font-size: 1rem;
+	border-radius: 0;
+	border-width: 2px;
+	background-color: transparent;
+}
+
+.btn.btn-primary,
+.btn.btn-outline-primary {
+	color: #e6007a;
+	background-color: transparent;
+}
+.btn.btn-outline-white {
+	color: white;
+}
+
+.btn.btn-outline-primary:hover,
+.btn.btn-primary:hover,
+.btn.btn-outline-white:hover {
+	color: #00ffe1;
+	border-color: #00ffe1;
+	background-color: transparent;
+}
+
+.modal-content {
+	color: black;
+}
+
+.navbar-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100vw;
+}
+
+.navbar-container a.btn {
+	font-size: 0.8rem;
 }
