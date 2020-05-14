@@ -1,6 +1,5 @@
 import Typed from 'typed.js'
-
-window.addEventListener('load', init)
+import { gsap } from 'gsap'
 
 const heroOpts = {
 	strings: [
@@ -20,7 +19,30 @@ const projectOpts = {
 	loop: true
 }
 
+const handleScroll = () => {
+	let scrollTop = window.scrollY
+
+	window.requestAnimationFrame(() => {
+		heroScene(scrollTop)
+	})
+}
+
+// ------------ SCENES
+const heroScene = scrollPos => {
+	const el = document.getElementById('hero-scene')
+
+	if (scrollPos < 100) {
+		el.classList.remove('animate')
+	} else {
+		el.classList.add('animate')
+	}
+}
+
 function init() {
 	new Typed('.typed-text-hero', heroOpts)
 	new Typed('.typed-text-project', projectOpts)
+
+	window.addEventListener('scroll', handleScroll)
 }
+
+window.addEventListener('load', init)

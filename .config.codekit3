@@ -197,6 +197,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/assets/css/logos.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/logos-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/assets/css/teams.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1791,6 +1801,38 @@
 		"oAP": "/build/node_modules",
 		"oF": 0
 		},
+	"/node_modules/gsap/CSSPlugin.js": {
+		"bF": 6,
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/gsap/CSSPlugin.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"/node_modules/gsap/gsap-core.js": {
+		"bF": 6,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/gsap/gsap-core.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"/node_modules/gsap/index.js": {
+		"bF": 6,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/gsap/index.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"/node_modules/typed.js/lib/typed.js": {
 		"bF": 6,
 		"ft": 64,
@@ -1939,6 +1981,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/tr/teams.html",
+		"oF": 0
+		},
+	"/yarn-error.log": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/yarn-error.log",
 		"oF": 0
 		},
 	"/yarn.lock": {
@@ -2771,7 +2821,7 @@
 			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
@@ -3211,7 +3261,7 @@
 			"optionString": ""
 			},
 		"no-unused-vars": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
 			},
 		"no-use-before-define": {
