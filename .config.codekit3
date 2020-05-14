@@ -1804,6 +1804,7 @@
 	"/node_modules/gsap/CSSPlugin.js": {
 		"bF": 6,
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/gsap/CSSPlugin.min.js",

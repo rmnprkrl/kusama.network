@@ -29,9 +29,11 @@ const handleScroll = () => {
 
 // ------------ SCENES
 const heroScene = scrollPos => {
+	if (scrollPos > 200) return
+
 	const el = document.getElementById('hero-scene')
 
-	if (scrollPos < 100) {
+	if (scrollPos < 150) {
 		el.classList.remove('animate')
 	} else {
 		el.classList.add('animate')
