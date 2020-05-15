@@ -278,6 +278,20 @@
 		}
 		.feature {
 			margin-bottom: 6rem;
+			h3 {
+				display: flex;
+				align-content: center;
+			}
+			.icon {
+				display: inline-block;
+				background-color: white;
+				width: 2rem;
+				height: 2rem;
+				margin-right: 1rem;
+				mask-repeat: no-repeat;
+				mask-position: center center;
+				mask-size: contain;
+			}
 		}
 	}
 
