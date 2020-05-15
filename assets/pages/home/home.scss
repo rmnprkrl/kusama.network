@@ -82,12 +82,21 @@
 			pointer-events: none;
 		}
 		&::before {
-			transform: translate3d(calc(var(--progress) * -1), calc(var(--progress) * -1), 0);
+			transform: translate3d(2%, 2%, 0);
 		}
 		&::after {
-			transform: translate3d(var(--progress), var(--progress), 0);
+			transform: translate3d(-2%, -2%, 0);
 		}
 	} //box outlines
+
+	.parallax .box-outlines {
+		&::before {
+			transform: translate3d(calc(var(--progress) / 20 * -1), calc(var(--progress) / 20 * -1), 0);
+		}
+		&::after {
+			transform: translate3d(calc(var(--progress) / 20), calc(var(--progress) / 20), 0);
+		}
+	}
 
 	.icons-wrap {
 		display: flex;
@@ -187,6 +196,10 @@
 		img {
 			max-width: 100%;
 			height: auto;
+			transform: translateY(-20%);
+		}
+		.move {
+			transform: translateY(var(--progress));
 		}
 	} //box graph
 
@@ -198,7 +211,16 @@
 	.launch-your-blockchain {
 		padding-top: 12rem;
 		padding-bottom: 3rem;
+		.parallax {
+			img {
+				transform: translateY(-4%);
+			}
+			.move {
+				transform: translateY(calc(var(--progress) / 3));
+			}
+		}
 	}
+
 	.bring-x-to-your-project {
 		.section-hero h2 {
 			white-space: nowrap;

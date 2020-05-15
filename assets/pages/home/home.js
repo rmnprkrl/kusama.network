@@ -26,9 +26,6 @@ const handleScroll = () => {
 
 	window.requestAnimationFrame(() => {
 		heroScene(scrollTop)
-		boxScene()
-		kusamaScene()
-		launchScene()
 		parallax()
 	})
 }
@@ -41,69 +38,6 @@ const heroScene = scrollPos => {
 		el.classList.remove('animate')
 	} else {
 		el.classList.add('animate')
-	}
-}
-
-const boxScene = () => {
-	const el = document.getElementById('box-scene')
-	const move = el.querySelector('.move')
-	let windowHeight = window.innerHeight
-	let top = el.getBoundingClientRect().top - windowHeight
-	let bottom = el.getBoundingClientRect().bottom
-	let height = el.getBoundingClientRect().height
-	let duration = height + windowHeight
-
-	if (top <= 0 && bottom >= 0) {
-		let progress = top * -1
-		progress = progress / duration
-
-		progress = progress * 100
-
-		let output = mapRange(progress, 0, 100, -50, 50)
-
-		move.style.transform = `translateY(${output}%)`
-	}
-}
-
-const kusamaScene = () => {
-	const el = document.getElementById('kusama-scene')
-
-	let windowHeight = window.innerHeight
-	let top = el.getBoundingClientRect().top - windowHeight
-	let bottom = el.getBoundingClientRect().bottom
-	let height = el.getBoundingClientRect().height
-	let duration = height + windowHeight
-
-	if (top <= 0 && bottom >= 0) {
-		let progress = top * -1
-		progress = progress / duration
-
-		progress = progress * 100
-
-		let output = mapRange(progress, 0, 100, 0, 5)
-
-		el.style.setProperty('--progress', output + '%')
-	}
-}
-
-const launchScene = () => {
-	const el = document.getElementById('launch-scene')
-	const move = el.querySelector('.move')
-	let windowHeight = window.innerHeight
-	let top = el.getBoundingClientRect().top - windowHeight
-	let bottom = el.getBoundingClientRect().bottom
-	let height = el.getBoundingClientRect().height
-	let duration = height + windowHeight
-
-	if (top <= 0 && bottom >= 0) {
-		let progress = top * -1
-		progress = progress / duration
-
-		progress = progress * 100
-
-		let output = mapRange(progress, 0, 100, -10, 30)
-
-		move.style.transform = `translateY(${output}%)`
 	}
 }
 
