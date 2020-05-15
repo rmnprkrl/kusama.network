@@ -427,6 +427,9 @@
 	}
 
 	@media (min-width: 992px) {
+		.o-hidden {
+			overflow: inherit;
+		}
 		.section-hero.sticky {
 			position: sticky;
 			top: 10rem;
