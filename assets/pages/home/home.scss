@@ -34,6 +34,12 @@
 
 	// -------------- #UTILITIES
 
+	.move {
+		backface-visibility: hidden;
+		transform: translateZ(0);
+		will-change: all;
+	}
+
 	.wrap {
 		display: block;
 		width: 100%;
@@ -76,10 +82,10 @@
 			pointer-events: none;
 		}
 		&::before {
-			transform: translate3d(-2%, -2%, 0);
+			transform: translate3d(calc(var(--progress) * -1), calc(var(--progress) * -1), 0);
 		}
 		&::after {
-			transform: translate3d(2%, 2%, 0);
+			transform: translate3d(var(--progress), var(--progress), 0);
 		}
 	} //box outlines
 
@@ -204,6 +210,14 @@
 		}
 	}
 
+	.ready-to-start {
+		text-align: center;
+		padding-top: 0;
+		@media (min-width: 992px) {
+			padding-top: 12rem;
+		}
+	}
+
 	.section-hero {
 		position: relative;
 		display: block;
@@ -240,6 +254,12 @@
 		}
 		.feature {
 			margin-bottom: 6rem;
+		}
+	}
+
+	.canary-network {
+		.move {
+			transform: translateY(calc(var(--progress) / 3));
 		}
 	}
 
