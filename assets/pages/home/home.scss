@@ -111,6 +111,9 @@
 			display: inline-flex;
 			flex-direction: column;
 			align-items: center;
+			.icon-name {
+				color: white;
+			}
 			.icon {
 				width: 3rem;
 				height: 3rem;
