@@ -235,8 +235,10 @@
 	.ready-to-start {
 		text-align: center;
 		padding-top: 0;
+		margin-top: -3rem;
 		@media (min-width: 992px) {
 			padding-top: 12rem;
+			margin-top: 0;
 		}
 	}
 
