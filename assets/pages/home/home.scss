@@ -134,6 +134,24 @@
 		}
 	}
 
+	.join-ecosystem {
+		.icons-wrap {
+			.icon-wrap {
+				transform: translateY(50%);
+				opacity: 0;
+				transition: all 0.4s ease-in-out;
+				transition-delay: 1s;
+			}
+
+			&.scrolled {
+				.icon-wrap {
+					transform: none;
+					opacity: 1;
+				}
+			}
+		}
+	}
+
 	// -------------- #SECTIONS
 
 	.hero {

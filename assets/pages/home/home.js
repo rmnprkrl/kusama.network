@@ -22,6 +22,16 @@ const projectOpts = {
 export const mapRange = (value, inMin, inMax, outMin, outMax) =>
 	(value - inMin) * (outMax - outMin) / (inMax - inMax) + outMin
 
+let parallaxEls
+function init() {
+	new Typed('.typed-text-hero', heroOpts)
+	new Typed('.typed-text-project', projectOpts)
+
+	parallaxEls = document.querySelectorAll('.parallax')
+
+	window.addEventListener('scroll', handleScroll)
+}
+
 const handleScroll = () => {
 	let scrollTop = window.scrollY
 
@@ -42,17 +52,6 @@ const heroScene = scrollPos => {
 	}
 }
 
-let parallaxEls
-
-function init() {
-	new Typed('.typed-text-hero', heroOpts)
-	new Typed('.typed-text-project', projectOpts)
-
-	parallaxEls = document.querySelectorAll('.parallax')
-
-	window.addEventListener('scroll', handleScroll)
-}
-
 const parallax = () => {
 	let windowHeight = window.innerHeight
 	parallaxEls.forEach(el => {
@@ -67,9 +66,12 @@ const parallax = () => {
 
 			progress = progress * 100
 
-			// let output = mapRange(progress, 0, 100, -10, 30)
+			el.classList.add('in-view')
+			el.classList.add('scrolled')
 
 			el.style.setProperty('--progress', Math.floor(progress) + '%')
+		} else {
+			el.classList.remove('in-view')
 		}
 	})
 }
