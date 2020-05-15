@@ -29,6 +29,8 @@ function init() {
 
 	parallaxEls = document.querySelectorAll('.parallax')
 
+	heroScene(window.scrollY)
+
 	window.addEventListener('scroll', handleScroll)
 }
 
@@ -67,7 +69,6 @@ const parallax = () => {
 			progress = progress * 100
 
 			el.classList.add('in-view')
-			el.classList.add('scrolled')
 
 			el.style.setProperty('--progress', Math.floor(progress) + '%')
 		} else {
