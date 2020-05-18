@@ -1193,7 +1193,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/teams/moonbeam.png": {
+	"/assets/img/teams/Moonbeam.png": {
 		"ft": 32768,
 		"iS": 5478,
 		"oA": 0,
@@ -1571,15 +1571,15 @@
 		"oAP": "/assets/kusama-brand-assets.zip",
 		"oF": 0
 		},
-	"/assets/pages/contact/teams.kit": {
+	"/assets/pages/contact/contact.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 1,
 		"oA": 0,
-		"oAP": "/teams.html",
+		"oAP": "/contact.html",
 		"oF": 0
 		},
-	"/assets/pages/contact/teams.scss": {
+	"/assets/pages/contact/contact.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -1587,7 +1587,28 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/assets/css/teams.css",
+		"oAP": "/assets/css/contact.css",
+		"oF": 0,
+		"oS": 3,
+		"sct": 0
+		},
+	"/assets/pages/ecosystem/ecosystem.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/ecosystem.html",
+		"oF": 0
+		},
+	"/assets/pages/ecosystem/ecosystem.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/ecosystem.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
@@ -1658,27 +1679,6 @@
 		"oS": 3,
 		"sct": 0
 		},
-	"/assets/pages/teams/contact.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 1,
-		"oA": 0,
-		"oAP": "/contact.html",
-		"oF": 0
-		},
-	"/assets/pages/teams/contact.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/assets/css/contact.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 0
-		},
 	"/CNAME": {
 		"cB": 0,
 		"ft": 8192,
@@ -1701,6 +1701,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/contact.html",
+		"oF": 0
+		},
+	"/ecosystem.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/ecosystem.html",
 		"oF": 0
 		},
 	"/es/contact.html": {
@@ -1994,14 +2002,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/signup-ty.html",
-		"oF": 0
-		},
-	"/teams.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/teams.html",
 		"oF": 0
 		},
 	"/terms.html": {
