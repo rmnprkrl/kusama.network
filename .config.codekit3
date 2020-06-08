@@ -1192,6 +1192,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/img/teams/Edgeware.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/img/teams/Edgeware.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/assets/img/teams/huobiwallet.png": {
 		"ft": 32768,
 		"iS": 2300,
@@ -1224,6 +1234,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/assets/img/teams/phala.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/img/teams/phala.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/assets/img/teams/polkadot.png": {
 		"ft": 32768,
