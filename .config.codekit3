@@ -1046,6 +1046,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/img/substrate-playground.png": {
+		"ft": 32768,
+		"iS": 405597,
+		"oA": 0,
+		"oAP": "/assets/img/substrate-playground.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/img/svg/arrow-group.svg": {
 		"ft": 2097152,
 		"miP": 0,
