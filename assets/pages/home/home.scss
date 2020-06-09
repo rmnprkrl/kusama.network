@@ -14,13 +14,13 @@
   h5,
   h6 {
     color: var(--c-light);
-    margin-bottom: 3rem;
+    margin-bottom: 1.4rem;
   }
   p {
     font-size: 18px;
     line-height: 1.8;
     color: var(--c-paragraph);
-    margin-bottom: 2rem;
+    margin-bottom: 1.4rem !important;
   }
 
   ul,
@@ -45,15 +45,15 @@
     width: 100%;
     float: left;
     .wrap-left {
-      padding-bottom: 3rem;
-      padding-top: 3rem;
+      padding-bottom: 1.5rem;
+      padding-top: 1.5rem;
       display: inline-block;
       max-width: 560px;
       float: left;
     }
     .wrap-right {
-      padding-bottom: 3rem;
-      padding-top: 3rem;
+      padding-bottom: 1.5rem;
+      padding-top: 1.5rem;
       display: inline-block;
       max-width: 560px;
       float: right;

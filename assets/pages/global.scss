@@ -178,3 +178,13 @@ button[data-target="#subscribe-modal"] {
     opacity: 1;
   }
 }
+
+section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  @media (min-width: 768px) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
