@@ -1625,6 +1625,22 @@
 		"oS": 3,
 		"sct": 0
 		},
+	"/assets/pages/privacy/privacy.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/privacy.html",
+		"oF": 0
+		},
+	"/assets/pages/terms/terms.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 1,
+		"oA": 0,
+		"oAP": "/terms.html",
+		"oF": 0
+		},
 	"/CNAME": {
 		"cB": 0,
 		"ft": 8192,
@@ -1748,14 +1764,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/remarkable/index.html",
-		"oF": 0
-		},
-	"/terms.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/terms.html",
 		"oF": 0
 		},
 	"/yarn-error.log": {
