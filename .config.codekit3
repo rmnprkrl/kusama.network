@@ -1580,48 +1580,6 @@
 		"oAP": "/assets/kusama-brand-assets.zip",
 		"oF": 0
 		},
-	"/assets/pages/contact/contact.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 1,
-		"oA": 0,
-		"oAP": "/contact.html",
-		"oF": 0
-		},
-	"/assets/pages/contact/contact.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/assets/css/contact.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 0
-		},
-	"/assets/pages/ecosystem/ecosystem.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 1,
-		"oA": 0,
-		"oAP": "/ecosystem.html",
-		"oF": 0
-		},
-	"/assets/pages/ecosystem/ecosystem.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/assets/css/ecosystem.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 0
-		},
 	"/assets/pages/global.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -1663,27 +1621,6 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/assets/css/home.css",
-		"oF": 0,
-		"oS": 3,
-		"sct": 0
-		},
-	"/assets/pages/logos/logos.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 1,
-		"oA": 0,
-		"oAP": "/logos.html",
-		"oF": 0
-		},
-	"/assets/pages/logos/logos.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/assets/css/logos.css",
 		"oF": 0,
 		"oS": 3,
 		"sct": 0
