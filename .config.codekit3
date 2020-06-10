@@ -25,38 +25,6 @@
 		"oAP": "/404.html",
 		"oF": 0
 		},
-	"/ar/contact.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/ar/contact.html",
-		"oF": 0
-		},
-	"/ar/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/ar/index.html",
-		"oF": 0
-		},
-	"/ar/logos.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/ar/logos.html",
-		"oF": 0
-		},
-	"/ar/teams.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/ar/teams.html",
-		"oF": 0
-		},
 	"/assets/css/contact.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1752,140 +1720,12 @@
 		"oAP": "/ecosystem.html",
 		"oF": 0
 		},
-	"/es/contact.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/es/contact.html",
-		"oF": 0
-		},
-	"/es/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/es/index.html",
-		"oF": 0
-		},
-	"/es/logos.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/es/logos.html",
-		"oF": 0
-		},
-	"/es/teams.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/es/teams.html",
-		"oF": 0
-		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/index.html",
-		"oF": 0
-		},
-	"/it/contact.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/it/contact.html",
-		"oF": 0
-		},
-	"/it/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/it/index.html",
-		"oF": 0
-		},
-	"/it/logos.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/it/logos.html",
-		"oF": 0
-		},
-	"/it/teams.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/it/teams.html",
-		"oF": 0
-		},
-	"/ja/contact.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/ja/contact.html",
-		"oF": 0
-		},
-	"/ja/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/ja/index.html",
-		"oF": 0
-		},
-	"/ja/logos.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/ja/logos.html",
-		"oF": 0
-		},
-	"/ja/teams.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/ja/teams.html",
-		"oF": 0
-		},
-	"/ko/contact.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/ko/contact.html",
-		"oF": 0
-		},
-	"/ko/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/ko/index.html",
-		"oF": 0
-		},
-	"/ko/logos.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/ko/logos.html",
-		"oF": 0
-		},
-	"/ko/teams.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/ko/teams.html",
 		"oF": 0
 		},
 	"/logos.html": {
@@ -2013,38 +1853,6 @@
 		"oAP": "/remarkable/index.html",
 		"oF": 0
 		},
-	"/ru/contact.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/ru/contact.html",
-		"oF": 0
-		},
-	"/ru/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/ru/index.html",
-		"oF": 0
-		},
-	"/ru/logos.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/ru/logos.html",
-		"oF": 0
-		},
-	"/ru/teams.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/ru/teams.html",
-		"oF": 0
-		},
 	"/signup-ty.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2061,38 +1869,6 @@
 		"oAP": "/terms.html",
 		"oF": 0
 		},
-	"/tr/contact.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tr/contact.html",
-		"oF": 0
-		},
-	"/tr/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tr/index.html",
-		"oF": 0
-		},
-	"/tr/logos.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tr/logos.html",
-		"oF": 0
-		},
-	"/tr/teams.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/tr/teams.html",
-		"oF": 0
-		},
 	"/yarn-error.log": {
 		"cB": 0,
 		"ft": 8192,
@@ -2107,38 +1883,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/yarn.lock",
-		"oF": 0
-		},
-	"/zh-CN/contact.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/zh-CN/contact.html",
-		"oF": 0
-		},
-	"/zh-CN/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/zh-CN/index.html",
-		"oF": 0
-		},
-	"/zh-CN/logos.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/zh-CN/logos.html",
-		"oF": 0
-		},
-	"/zh-CN/teams.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/zh-CN/teams.html",
 		"oF": 0
 		}
 	},
