@@ -175,3 +175,20 @@ section {
     padding-bottom: 4rem;
   }
 }
+
+.modal-dialog {
+  .hs_email {
+    margin-bottom: 20px;
+  }
+
+  ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  @media (min-width: 576px) {
+    max-width: 720px;
+    margin: 1.75rem auto;
+  }
+}
