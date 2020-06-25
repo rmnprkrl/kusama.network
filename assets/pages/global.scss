@@ -177,18 +177,71 @@ section {
 }
 
 .modal-dialog {
+  .hs-error-msgs {
+    font-size: 0.75rem;
+    margin: 10px 0;
+    color: var(--c-accent);
+  }
+
   .hs_email {
     margin-bottom: 20px;
+
+    input {
+      display: block;
+      border: 2px solid var(--c-light);
+      border-radius: 0.2rem;
+      width: 100%;
+      height: 60px;
+      padding: 0.4375rem 0.75rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      background-color: #fff;
+      background-clip: padding-box;
+      color: var(--c-dark);
+      font-weight: bold;
+    }
   }
 
   ul {
     list-style: none;
     margin-left: 0;
     padding-left: 0;
+
+    li {
+      line-height: 1.2;
+
+      input {
+        margin-right: 10px;
+      }
+    }
+
+    li.hs-form-checkbox,
+    li.hs-form-booleancheckbox {
+      cursor: pointer;
+
+      * {
+        cursor: pointer;
+      }
+    }
   }
 
   @media (min-width: 576px) {
-    max-width: 720px;
+    max-width: 620px;
     margin: 1.75rem auto;
+  }
+
+  .legal-consent-container {
+    font-size: 0.75rem;
+  }
+
+  .hs-submit {
+    input {
+      color: white;
+      border: none;
+      background: var(--c-accent);
+      padding: 10px;
+      font-weight: bold;
+    }
   }
 }
