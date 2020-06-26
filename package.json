@@ -1,0 +1,15 @@
+{
+	"name": "Kusama",
+	"version": "2.0.0",
+	"description": "A canary network for Polkadot experiments.",
+	"scripts": {},
+	"author": "",
+	"license": "UNLICENSED",
+	"repository": {},
+	"dependencies": {
+		"@popperjs/core": "^2.4.0",
+		"gsap": "^3.2.6",
+		"jquery": "^3.5.1",
+		"typed.js": "^2.0.11"
+	}
+}
